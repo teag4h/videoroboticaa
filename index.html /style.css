@@ -1,31 +1,9 @@
-/* 
-  ESTILIZAÇÃO DO ELEMENTO <body>:
-  Define os estilos visuais básicos para toda a página HTML
-*/
 body {
-    /* Define a cor do texto para branco (hex: #ffffff) */
-    color: white;
-    
-    /* Define a cor de fundo da página para preto (hex: #000000) */
-    background: black;
-    
-    /* Remove todas as margens externas padrão do navegador */
-    margin: 0;
-    
-    /* 
-      Define a família de fontes:
-      1. Tenta usar "Charas Petch" como fonte principal
-      2. Se não estiver disponível, usa qualquer fonte sans-serif
-      Obs: "Charas Petch" precisa ser importada (ex: Google Fonts) 
-    */
-    font-family: "Charas Petch", sans-serif;
-    
-    /* 
-      Adiciona uma margem inferior de 100 pixels:
-      - Cria espaço extra abaixo do conteúdo da página
-      - Útil para evitar que o conteúdo fique colado no rodapé
-    */
-    margin-bottom: 100px;
+  color: white; /* Define a cor do texto como branca */
+  background: black; /* Define a cor de fundo da página como preta */
+  margin: 0px; /* Remove as margens externas padrão do body */
+  font-family: "Chakra Petch", sans-serif; /* Define a fonte do texto como "Chakra Petch", se disponível, ou então usa uma fonte sans-serif padrão */
+  margin-bottom: 100px; /* Define uma margem inferior de 100px (afastamento do conteúdo da parte inferior da página) */
 }
 
 

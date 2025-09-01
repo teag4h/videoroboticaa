@@ -1,59 +1,53 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+ <!DOCTYPE html> <!-- Define o tipo de documento como HTML5 -->
+<html lang="pt-br"> <!-- Define o idioma da página como português (Brasil) -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site de Robótica</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade em dispositivos móveis -->
+    <title>Site de Robótica</title> <!-- Título da aba do navegador -->
+    <link rel="stylesheet" href="style.css"> <!-- Importa o arquivo de estilos CSS -->
 </head>
-<body> <!-- Início do corpo da página -->
+<body>
+    <header>Soluções Robóticas</header> <!-- Cabeçalho do site -->
 
-  <header>Soluções Robóticas</header> <!-- Cabeçalho da página com o nome do site -->
+    <section class="chamada"> <!-- Seção de chamada principal -->
+        <div class="chamada-texto"> <!-- Texto da chamada -->
+            <h1>Trabalhando com Robótica Educacional</h1> <!-- Título -->
+            <p>#os melhores vídeos que podemos arrumar sobre robótica</p> <!-- Subtítulo -->
+            <p>FIQUE ATENTO PARA AS MODIFICAÇÕES</p> <!-- Alerta de mudanças -->
+        </div>
 
-  <section class="chamada"> <!-- Seção principal com texto e vídeo -->
+        <div>
+            <figure>
+                <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/LVDnvVUGwV0?si=ah1BZaUxp3INCiKL"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe> <!-- Vídeo incorporado do YouTube -->
+            </figure>
+        </div>
+    </section>
 
-    <div class="chamada-texto"> <!-- Div com o conteúdo textual da chamada -->
-      <h1>Trabalhando com Robótica Educacional</h1> <!-- Título principal da seção -->
-      <p>#os melhores vídeos que podemos arrumar sobre robótica</p> <!-- Parágrafo com frase de destaque -->
-      <p>FIQUE ATENTO PARA AS MODIFICAÇÕES</p> <!-- Parágrafo com aviso para os visitantes -->
-    </div>
+    <section class="categoria"> <!-- Seção de categoria de vídeos -->
+        <h2>O MELHOR DA ROBÓTICA ESTÁ AQUI</h2> <!-- Título da seção -->
 
-    <div> <!-- Div para conter o vídeo -->
-      <figure> <!-- Elemento semântico que agrupa vídeo e legenda -->
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/pfnXkMdVhpk?si=umSbYgRn-Lh9Xtt8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <figcaption>Vídeo explicativo sobre robótica educacional</figcaption> <!-- Legenda abaixo do vídeo -->
-      </figure>
-    </div>
-
-  </section> <!-- Fim da seção chamada -->
-
-  <section class="categoria"> <!-- Seção com os vídeos em miniatura -->
-    <h2>O MELHOR DA ROBÓTICA ESTA AQUI</h2> <!-- Título da seção de categorias -->
-
-    <div class="categoria-videos"> <!-- Container flexível com miniaturas dos vídeos -->
-
-      <a href="https://www.youtube.com/watch?v=admjB15l00g"> <!-- Link para vídeo 1 -->
-        <img src="https://img.youtube.com/vi/admjB15l00g/maxresdefault.jpg"/> <!-- Miniatura automática do vídeo -->
-      </a>
-
-      <a href="https://www.youtube.com/watch?v=nCmIwcycUJ8"> <!-- Link para vídeo 2 -->
-        <img src="https://img.youtube.com/vi/nCmIwcycUJ8/maxresdefault.jpg"/> <!-- Miniatura do vídeo -->
-      </a>
-
-      <a href="https://www.youtube.com/watch?v=FvRmEapoHRc"> <!-- Link para vídeo 3 -->
-        <img src="https://img.youtube.com/vi/FvRmEapoHRc/maxresdefault.jpg"/> <!-- Miniatura do vídeo -->
-      </a>
-
-      <a href="https://www.youtube.com/watch?v=Ipkw_hWW-Hw"> <!-- Link para vídeo 4 -->
-        <img src="https://img.youtube.com/vi/Ipkw_hWW-Hw/maxresdefault.jpg"/> <!-- Miniatura do vídeo -->
-      </a>
-
-      <a href="https://www.youtube.com/watch?v=d4DzMNGoyis"> <!-- Link para vídeo 5 -->
-        <img src="https://img.youtube.com/vi/d4DzMNGoyis/maxresdefault.jpg"/> <!-- Miniatura do vídeo -->
-      </a>
-
-    </div> <!-- Fim do container de vídeos -->
-  </section> <!-- Fim da seção de categorias -->
-
-</body> <!-- Fim do corpo da página -->
-</html> <!-- Fim do documento HTML -->
+        <div class="categoria-videos"> <!-- Container para os vídeos em miniatura -->
+            <a href="https://www.youtube.com/watch?v=admjB15l00g">
+                <img src="https://img.youtube.com/vi/admjB15l00g/maxresdefault.jpg"/> <!-- Thumbnail do vídeo 1 -->
+            </a>
+            <a href="https://www.youtube.com/watch?v=nCmIwcycUJ8">
+                <img src="https://img.youtube.com/vi/nCmIwcycUJ8/maxresdefault.jpg"/> <!-- Thumbnail do vídeo 2 -->
+            </a>
+            <a href="https://www.youtube.com/watch?v=FvRmEapoHRc">
+                <img src="https://img.youtube.com/vi/FvRmEapoHRc/maxresdefault.jpg"/> <!-- Thumbnail do vídeo 3 -->
+            </a>
+            <a href="https://www.youtube.com/watch?v=Ipkw_hWW-Hw">
+                <img src="https://img.youtube.com/vi/Ipkw_hWW-Hw/maxresdefault.jpg"/> <!-- Thumbnail do vídeo 4 -->
+            </a>
+            <a href="https://www.youtube.com/watch?v=d4DzMNGoyis">
+                <img src="https://img.youtube.com/vi/d4DzMNGoyis/maxresdefault.jpg"/> <!-- Thumbnail do vídeo 5 -->
+            </a>
+        </div>
+    </section>
+</body>
+</html>
